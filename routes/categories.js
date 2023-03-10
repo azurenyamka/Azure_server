@@ -5,7 +5,7 @@ const { v4: uuidv4 } = require("uuid");
 const router = Router();
 
 //Start of Category
-router.post("/", (req, res) => {
+router.post("/", (req, res) => { 
   // req.body;
 
   try {
